@@ -9,19 +9,27 @@ let questions = [];
 let currentOptions = [];
 let answers = [];
 let correctAnswer;
-let reversed = true;
+let reversed = false;
 let results = false;
 
-export const page = writable("process");
+export const page = writable("dashboard");
 export const process = writable({});
 export const result = writable({});
+
+export function updateDashboard() {
+    page.set("dashboard");
+}
+
+export function updateEdit(poolId) {
+    page.set("edit");
+}
 
 function updateProcess() {
     page.set("process");
     process.set({
         quizName: quiz.name,
         question: {
-            text: quiz.pairs[questions[currentQuestionId]][reversed ? "second" : "first"],
+            text: quiz.questions[questions[currentQuestionId]][reversed ? "second" : "first"],
             number: currentQuestionId + 1,
             options: currentOptions
         },
@@ -39,17 +47,17 @@ function updateResult() {
     });
 }
 
-function restart(params) {
+export function restart(params) {
     quiz = pool[params.poolId];
-    maxQuestions = Math.min(params.questions, quiz.pairs.length);
-    optionsPerQuestion = Math.min(params.optionsPerQuestion, quiz.pairs.length);
+    maxQuestions = Math.min(params.questions, quiz.questions.length);
+    optionsPerQuestion = Math.min(params.optionsPerQuestion, quiz.questions.length);
     currentQuestionId = -1;
     answers = [];
     questions = [];
     results = false;
 
     while (questions.length < maxQuestions) {
-        let questionId = Math.floor(Math.random() * quiz.pairs.length);
+        let questionId = Math.floor(Math.random() * quiz.questions.length);
         if (!questions.includes(questionId)) {
             questions.push(questionId);
         }
@@ -77,14 +85,14 @@ function nextQuestion() {
         currentOptions = [];
         correctAnswer = Math.floor(Math.random() * optionsPerQuestion);
         currentOptions[correctAnswer] =
-            quiz.pairs[questions[currentQuestionId]][reversed ? "first" : "second"];
+            quiz.questions[questions[currentQuestionId]][reversed ? "first" : "second"];
 
         for (let i = 0; i < optionsPerQuestion; i++) {
             if (i !== correctAnswer) {
                 while (true) {
                     let variant =
-                        quiz.pairs[
-                        Math.floor(Math.random() * quiz.pairs.length)
+                        quiz.questions[
+                        Math.floor(Math.random() * quiz.questions.length)
                         ][reversed ? "first" : "second"];
                     if (!currentOptions.includes(variant)) {
                         currentOptions[i] = variant;
@@ -98,9 +106,3 @@ function nextQuestion() {
         return true;
     }
 }
-
-restart({
-    poolId: Math.floor(Math.random() * pool.length),
-    questions: 15,
-    optionsPerQuestion: 4,
-});
