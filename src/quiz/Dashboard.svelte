@@ -1,8 +1,19 @@
 <script>
-    import { pool } from "./pool";
+    import { pool, updatePool } from "./pool";
     import { updateEdit, restart } from "./quiz";
 
+    console.log(pool)
+
     let selectedQuiz;
+
+    async function loadSamplePool() {
+        const response = await fetch("sampleQuizzes.json");
+        updatePool(await response.json());
+    }
+
+    if (pool == null || pool.length === 0) {
+        loadSamplePool();
+    }
 </script>
 
 <div class="box">
@@ -37,8 +48,8 @@
     </div>
 
     <div class="table">
-        <h1>Saved quizes</h1>
-        {#if selectedQuiz != null}
+        <h1>Saved quizzes</h1>
+        {#if pool.length > 0}
             <table>
                 <tr>
                     <th>Name</th>
@@ -76,11 +87,12 @@
 <style>
     .box {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .box div {
-        margin: 1vh;
+        padding: 2vh;
     }
 
     table {
@@ -91,5 +103,9 @@
     td {
         border: 1px solid black;
         padding: 0.5vh;
+    }
+
+    td {
+        cursor: pointer;
     }
 </style>
