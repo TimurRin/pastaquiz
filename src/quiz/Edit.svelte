@@ -1,6 +1,6 @@
 <script>
     import { edit, updateDashboard } from "./quiz";
-    import { updateQuiz } from "./pool";
+    import { updateQuiz, removeQuiz } from "./pool";
     import { uuidv4 } from "../utils";
 
     let originalData = $edit.data || {};
@@ -35,6 +35,13 @@
                 date: new Date().toISOString(),
                 questions: quiz.questions,
             },
+            $edit.id
+        );
+        updateDashboard();
+    }
+
+    function remove() {
+        removeQuiz(
             $edit.id
         );
         updateDashboard();
@@ -89,6 +96,14 @@
             bind:value={question.group}
         />
     </div>
+    <div>
+        <button
+            on:click={() => {
+                quiz.questions.splice(index, 1);
+                quiz = quiz;
+            }}>Remove question</button
+        >
+    </div>
 {/each}
 <hr />
 <div>
@@ -101,3 +116,7 @@
 </div>
 <hr />
 <button on:click={save}>Save</button>
+{#if $edit.id != null}
+    <hr />
+    <button on:click={remove}>Delete quiz</button>
+{/if}

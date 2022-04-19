@@ -8,7 +8,12 @@ export function updateQuiz(quizData, quizId) {
     } else {
         pool.push(quizData);
     }
-    
+
+    localStorage.setItem("pool", JSON.stringify(pool));
+}
+
+export function removeQuiz(quizId) {
+    pool.splice(quizId, 1);
     localStorage.setItem("pool", JSON.stringify(pool));
 }
 

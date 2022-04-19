@@ -13,12 +13,16 @@ let reversed = false;
 let results = false;
 
 export const page = writable("dashboard");
+export const dashboard = writable({});
 export const edit = writable({});
 export const process = writable({});
 export const result = writable({});
 
 export function updateDashboard() {
     page.set("dashboard");
+    dashboard.set({
+        pool: pool
+    });
 }
 
 export function updateEdit(poolId) {

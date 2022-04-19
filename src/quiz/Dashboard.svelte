@@ -1,15 +1,17 @@
 <script>
-    import { pool, updatePool } from "./pool";
-    import { updateEdit, restart } from "./quiz";
+    import { updatePool } from "./pool";
+    import { updateDashboard, updateEdit, restart, dashboard } from "./quiz";
 
     let selectedQuiz;
 
     async function loadSamplePool() {
         const response = await fetch("sampleQuizzes.json");
         updatePool(await response.json());
+        localStorage.setItem("samples", new Date().toISOString());
+        updateDashboard();
     }
 
-    if (pool == null || pool.length === 0) {
+    if (localStorage.getItem("samples") == null) {
         loadSamplePool();
     }
 </script>
@@ -31,10 +33,9 @@
                     : "Unknown date"} &mdash; {selectedQuiz.data.uid}
             </p>
             <button
-            style="width:100%"
-            on:click={() =>
-                updateEdit(selectedQuiz.id)}>Edit</button
-        >
+                style="width:100%"
+                on:click={() => updateEdit(selectedQuiz.id)}>Edit</button
+            >
             <button
                 style="width:100%"
                 on:click={() =>
@@ -52,7 +53,7 @@
 
     <div class="table">
         <h1>Saved quizzes</h1>
-        {#if pool.length > 0}
+        {#if $dashboard.pool && $dashboard.pool.length > 0}
             <table>
                 <tr>
                     <th>Name</th>
@@ -61,10 +62,10 @@
                     <th>Date</th>
                     <!-- <th /> -->
                 </tr>
-                {#each pool as poolItem, poolId}
+                {#each $dashboard.pool as poolItem, poolId}
                     <tr
                         on:click={() =>
-                            (selectedQuiz = { id: poolId, data: pool[poolId] })}
+                            (selectedQuiz = { id: poolId, data: $dashboard.pool[poolId] })}
                     >
                         <td>{poolItem.name}</td>
                         <td>{poolItem.questions.length}</td>
@@ -74,9 +75,8 @@
                 {/each}
             </table>
         {/if}
-        <button
-            style="width:100%; margin-top:2vh"
-            on:click={() => updateEdit()}>Create new</button
+        <button style="width:100%; margin-top:2vh" on:click={() => updateEdit()}
+            >Create new</button
         >
     </div>
 </div>
