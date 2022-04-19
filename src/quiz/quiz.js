@@ -13,6 +13,7 @@ let reversed = false;
 let results = false;
 
 export const page = writable("dashboard");
+export const edit = writable({});
 export const process = writable({});
 export const result = writable({});
 
@@ -22,6 +23,10 @@ export function updateDashboard() {
 
 export function updateEdit(poolId) {
     page.set("edit");
+    edit.set({
+        id: poolId,
+        data: poolId != null ? pool[poolId] : null
+    });
 }
 
 function updateProcess() {

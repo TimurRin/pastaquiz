@@ -2,8 +2,6 @@
     import { pool, updatePool } from "./pool";
     import { updateEdit, restart } from "./quiz";
 
-    console.log(pool)
-
     let selectedQuiz;
 
     async function loadSamplePool() {
@@ -32,6 +30,11 @@
                     ? new Date(selectedQuiz.data.date).toLocaleString()
                     : "Unknown date"} &mdash; {selectedQuiz.data.uid}
             </p>
+            <button
+            style="width:100%"
+            on:click={() =>
+                updateEdit(selectedQuiz.id)}>Edit</button
+        >
             <button
                 style="width:100%"
                 on:click={() =>
@@ -67,17 +70,11 @@
                         <td>{poolItem.questions.length}</td>
                         <td>{poolItem.author}</td>
                         <td>{new Date(poolItem.date).toLocaleString()}</td>
-                        <!-- <td
-                            ><button on:click={() => updateEdit(poolId)}
-                                >Edit</button
-                            ></td
-                        > -->
                     </tr>
                 {/each}
             </table>
         {/if}
         <button
-            disabled
             style="width:100%; margin-top:2vh"
             on:click={() => updateEdit()}>Create new</button
         >

@@ -28,12 +28,13 @@
         </div>
     {/each}
 </form>
-<div
+<button
     class="footer"
     on:click={() => {
         addAnswer(answer)
         answer = null;
     }}
+    disabled={answer == null}
 >
-    <h1>>>></h1>
-</div>
+    Next question
+</button>
