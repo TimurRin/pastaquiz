@@ -13,6 +13,8 @@
 
     if (localStorage.getItem("samples") == null) {
         loadSamplePool();
+    } else {
+        updateDashboard();
     }
 </script>
 
