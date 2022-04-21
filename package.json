@@ -1,6 +1,6 @@
 {
   "name": "pastaquiz",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "Create or paste your quiz and take it",
   "private": true,
   "scripts": {
