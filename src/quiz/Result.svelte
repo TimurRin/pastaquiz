@@ -1,19 +1,24 @@
 <script>
-    import { result, updateDashboard } from "./quiz";
+    import DashboardButton from "./DashboardButton.svelte";
+    import { result } from "./quiz";
 </script>
+
+<h1>{$result.quiz.name}</h1>
 
 {#each $result.questions as questionId, index}
     <p>
-        {index + 1}. {$result.quiz.questions[questionId][$result.reversed ? "second" : "first"]} &mdash;
+        {index + 1}. {$result.quiz.questions[questionId][
+            $result.reversed ? "second" : "first"
+        ]} &mdash;
         <span class={$result.answers[index].isCorrect ? "correct" : "incorrect"}
             >{$result.answers[index].answer}</span
-        >{$result.answers[index].isCorrect ? "" : (" " + $result.answers[index].correctAnswer)}
+        >{$result.answers[index].isCorrect
+            ? ""
+            : " " + $result.answers[index].correctAnswer}
     </p>
 {/each}
 
-<button style="width:100%" on:click={() => updateDashboard()}
-    >Back to Dashboard</button
->
+<DashboardButton />
 
 <style>
     span.correct {

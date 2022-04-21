@@ -1,11 +1,11 @@
 <script>
-    import {
-        process,
-        addAnswer,
-    } from "./quiz";
+    import DashboardButton from "./DashboardButton.svelte";
+    import { process, addAnswer } from "./quiz";
 
     let answer = null;
 </script>
+
+<DashboardButton />
 
 <div class="header">
     <h1>{$process.quizName}</h1>
@@ -31,7 +31,7 @@
 <button
     class="footer"
     on:click={() => {
-        addAnswer(answer)
+        addAnswer(answer);
         answer = null;
     }}
     disabled={answer == null}

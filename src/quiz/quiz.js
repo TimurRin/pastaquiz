@@ -1,7 +1,7 @@
 import { writable } from "svelte/store";
 import { pool } from "./pool";
 
-let quiz = {};
+let quiz;
 let maxQuestions;
 let optionsPerQuestion;
 let currentQuestionId = -1;
@@ -21,6 +21,7 @@ export const result = writable({});
 export function updateDashboard() {
     page.set("dashboard");
     dashboard.set({
+        quiz: quiz,
         pool: pool
     });
 }
@@ -33,17 +34,21 @@ export function updateEdit(poolId) {
     });
 }
 
-function updateProcess() {
-    page.set("process");
-    process.set({
-        quizName: quiz.name,
-        question: {
-            text: quiz.questions[questions[currentQuestionId]][reversed ? "second" : "first"],
-            number: currentQuestionId + 1,
-            options: currentOptions
-        },
-        questions: maxQuestions,
-    });
+export function updateProcess() {
+    if (currentQuestionId < questions.length) {
+        page.set("process");
+        process.set({
+            quizName: quiz.name,
+            question: {
+                text: quiz.questions[questions[currentQuestionId]][reversed ? "second" : "first"],
+                number: currentQuestionId + 1,
+                options: currentOptions
+            },
+            questions: maxQuestions,
+        });
+    } else {
+        updateResult();
+    }
 }
 
 function updateResult() {
