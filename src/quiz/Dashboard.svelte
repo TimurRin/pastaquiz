@@ -1,7 +1,14 @@
 <script>
     import QuizCard from "./QuizCard.svelte";
+    import QuizSettings from "./QuizSettings.svelte";
     import { updatePool } from "./pool";
-    import { updateDashboard, updateEdit, updateProcess, restart, dashboard } from "./quiz";
+    import {
+        updateDashboard,
+        updateEdit,
+        updateProcess,
+        restart,
+        dashboard,
+    } from "./quiz";
 
     let selectedQuiz;
 
@@ -25,35 +32,41 @@
             {#if selectedQuiz != null}
                 <h1>Selected quiz</h1>
                 <QuizCard quiz={selectedQuiz.data} />
+                <QuizSettings quizId={selectedQuiz.id} quiz={selectedQuiz.data} />
                 <button
                     style="width:100%"
                     on:click={() => updateEdit(selectedQuiz.id)}>Edit</button
                 >
-                <button
-                    style="width:100%"
-                    on:click={() =>
-                        restart({
-                            poolId: selectedQuiz.id,
-                            questions: 15,
-                            optionsPerQuestion: 4,
-                        })}>Start</button
-                >
             {:else}
                 <h1>{"Welcome to Pastaquiz!"}</h1>
-                <p><i>A simple tool to create quizzes, tests and exersizes</i></p>
-                <p>All the data is stored in your browser and is not synced at the moment.</p>
-                <p><b>The app is in the development stage, proper design and advanced settings are on the way!</b></p>
-                <p><b>DO NOT use it as a proper tool since you may lose some data e.g. when refreshing the page</b></p>
+                <p>
+                    <i>A simple tool to create quizzes, tests and exersizes</i>
+                </p>
+                <p>
+                    All the data is stored in your browser and is not synced at
+                    the moment.
+                </p>
+                <p>
+                    <b
+                        >The app is in the development stage, proper design and
+                        advanced settings are on the way!</b
+                    >
+                </p>
+                <p>
+                    <b
+                        >DO NOT use it as a proper tool since you may lose some
+                        data e.g. when refreshing the page</b
+                    >
+                </p>
             {/if}
         </div>
         {#if $dashboard.quiz != null}
             <div class="quiz-current">
                 <h1>Active quiz</h1>
                 <QuizCard quiz={$dashboard.quiz} />
-                <button
-                style="width:100%"
-                on:click={() => updateProcess()}>Continue</button
-            >
+                <button style="width:100%" on:click={() => updateProcess()}
+                    >Continue</button
+                >
             </div>
         {/if}
     </div>
