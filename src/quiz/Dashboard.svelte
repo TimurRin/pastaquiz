@@ -46,7 +46,7 @@
                     on:click={() => updateEdit(selectedQuiz.id)}>Edit</button
                 >
             {:else}
-                <h1>{"Welcome to Pastaquiz!"}</h1>
+                <h1>{"Welcome to PastaQuiz!"}</h1>
                 <p>
                     <i>A simple tool to create quizzes, tests and exersizes</i>
                 </p>
