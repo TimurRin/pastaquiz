@@ -14,6 +14,7 @@ let results = false;
 
 export const page = writable("dashboard");
 export const dashboard = writable({});
+export const preview = writable({});
 export const edit = writable({});
 export const process = writable({});
 export const result = writable({});
@@ -23,6 +24,14 @@ export function updateDashboard() {
     dashboard.set({
         quiz: quiz,
         pool: pool
+    });
+}
+
+export function updatePreview(poolId) {
+    page.set("preview");
+    preview.set({
+        id: poolId,
+        data: poolId != null ? pool[poolId] : null
     });
 }
 

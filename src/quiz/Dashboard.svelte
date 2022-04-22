@@ -4,9 +4,9 @@
     import { updatePool } from "./pool";
     import {
         updateDashboard,
+        updatePreview,
         updateEdit,
         updateProcess,
-        restart,
         dashboard,
     } from "./quiz";
 
@@ -32,7 +32,15 @@
             {#if selectedQuiz != null}
                 <h1>Selected quiz</h1>
                 <QuizCard quiz={selectedQuiz.data} />
-                <QuizSettings quizId={selectedQuiz.id} quiz={selectedQuiz.data} />
+                <QuizSettings
+                    quizId={selectedQuiz.id}
+                    quiz={selectedQuiz.data}
+                />
+                <button
+                    style="width:100%"
+                    on:click={() => updatePreview(selectedQuiz.id)}
+                    >Preview</button
+                >
                 <button
                     style="width:100%"
                     on:click={() => updateEdit(selectedQuiz.id)}>Edit</button
@@ -44,7 +52,7 @@
                 </p>
                 <p>
                     All the data is stored in your browser and is not synced at
-                    the moment.
+                    the moment
                 </p>
                 <p>
                     <b
@@ -116,16 +124,6 @@
 
     .box div {
         padding: 2vh;
-    }
-
-    table {
-        border-collapse: collapse;
-    }
-
-    th,
-    td {
-        border: 1px solid black;
-        padding: 0.5vh;
     }
 
     td {

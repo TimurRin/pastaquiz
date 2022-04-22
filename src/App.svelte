@@ -1,5 +1,6 @@
 <script>
 	import Dashboard from "./quiz/Dashboard.svelte";
+	import Preview from "./quiz/Preview.svelte";
 	import Edit from "./quiz/Edit.svelte";
 	import Process from "./quiz/Process.svelte";
 	import Result from "./quiz/Result.svelte";
@@ -13,6 +14,8 @@
 		<Process />
 	{:else if $page === "edit"}
 		<Edit />
+	{:else if $page === "preview"}
+		<Preview />
 	{:else}
 		<Dashboard />
 	{/if}
