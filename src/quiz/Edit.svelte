@@ -1,6 +1,6 @@
 <script>
     import DashboardButton from "./DashboardButton.svelte";
-    import { edit, updateDashboard } from "./quiz";
+    import { dataVersion, edit, updateDashboard } from "./quiz";
     import { updateQuiz, removeQuiz } from "./pool";
     import { uuidv4 } from "../utils";
 
@@ -8,10 +8,19 @@
 
     let quiz = {
         uid: originalData.uid || uuidv4(),
+        dataVersion: originalData.dataVersion,
         name: originalData.name,
         description: originalData.description,
         author: originalData.author,
         authorLink: originalData.authorLink,
+        labels: {
+            first:
+                (originalData.labels && originalData.labels.first) ||
+                undefined,
+            second:
+                (originalData.labels && originalData.labels.second) ||
+                undefined,
+        },
         questions: [],
     };
 
@@ -20,7 +29,7 @@
             quiz.questions.push({
                 first: question.first,
                 second: question.second,
-                group: question.group,
+                groups: question.groups,
             });
         });
     }
@@ -29,10 +38,15 @@
         updateQuiz(
             {
                 uid: quiz.uid,
+                dataVersion: dataVersion,
                 name: quiz.name,
                 description: quiz.description,
                 author: quiz.author,
                 authorLink: quiz.authorLink,
+                labels: {
+                    first: quiz.labels.first,
+                    second: quiz.labels.second,
+                },
                 date: new Date().toISOString(),
                 questions: quiz.questions,
             },
@@ -56,11 +70,11 @@
         <input id="quiz-uid" type="text" bind:value={quiz.uid} /> -->
     </div>
     <div>
-        <label for="quiz-name">name</label>
+        <label for="quiz-name">Name</label>
         <input id="quiz-name" type="text" bind:value={quiz.name} />
     </div>
     <div>
-        <label for="quiz-description">description</label>
+        <label for="quiz-description">Description</label>
         <input
             id="quiz-description"
             type="text"
@@ -68,12 +82,23 @@
         />
     </div>
     <div>
-        <label for="quiz-author">author</label>
+        <label for="quiz-author">Author</label>
         <input id="quiz-author" type="text" bind:value={quiz.author} />
     </div>
     <div>
-        <label for="quiz-authorLink">authorLink</label>
+        <label for="quiz-authorLink">Link / Source</label>
         <input id="quiz-authorLink" type="url" bind:value={quiz.authorLink} />
+    </div>
+</div>
+<hr />
+<div>
+    <div>
+        <label for="quiz-labels-first">Label for 'First'</label>
+        <input id="quiz-labels-first" type="text" bind:value={quiz.labels.first} />
+    </div>
+    <div>
+        <label for="quiz-labels-second">Label for 'Second'</label>
+        <input id="quiz-labels-second" type="text" bind:value={quiz.labels.second} />
     </div>
 </div>
 <hr />
@@ -82,7 +107,9 @@
         <div>
             <h2>Question {index + 1}</h2>
             <div>
-                <label for={"quiz-question-" + index + "-first"}>First</label>
+                <label for={"quiz-question-" + index + "-first"}
+                    >{quiz.labels.first || "First"}</label
+                >
                 <input
                     id={"quiz-question-" + index + "-first"}
                     type="text"
@@ -90,19 +117,11 @@
                 />
             </div>
             <div>
-                <label for={"quiz-question-" + index + "-second"}>Second</label>
+                <label for={"quiz-question-" + index + "-second"}>{quiz.labels.second || "Second"}</label>
                 <input
                     id={"quiz-question-" + index + "-second"}
                     type="text"
                     bind:value={question.second}
-                />
-            </div>
-            <div>
-                <label for={"quiz-question-" + index + "-group"}>Group</label>
-                <input
-                    id={"quiz-question-" + index + "-group"}
-                    type="text"
-                    bind:value={question.group}
                 />
             </div>
             <div>

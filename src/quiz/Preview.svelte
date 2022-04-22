@@ -42,8 +42,8 @@
 <table>
     <tr>
         <th>#</th>
-        <th>Question</th>
-        <th>Answer</th>
+        <th>{$preview.data.labels && $preview.data.labels.first || "First"}</th>
+        <th>{$preview.data.labels && $preview.data.labels.second || "Second"}</th>
     </tr>
     {#each questions as questionId, index}
         <tr>

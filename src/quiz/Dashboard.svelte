@@ -12,6 +12,13 @@
 
     let selectedQuiz;
 
+    function selectQuiz(quizId, quizData) {
+        selectedQuiz = {
+            id: quizId,
+            data: quizData,
+        };
+    }
+
     async function loadSamplePool() {
         const response = await fetch("sampleQuizzes.json");
         updatePool(await response.json());
@@ -19,11 +26,11 @@
         updateDashboard();
     }
 
-    if (localStorage.getItem("samples") == null) {
-        loadSamplePool();
-    } else {
+    // if (localStorage.getItem("samples") == null) {
+    //     loadSamplePool();
+    // } else {
         updateDashboard();
-    }
+    // }
 </script>
 
 <div class="box">
@@ -94,10 +101,7 @@
                     {#each $dashboard.pool as poolItem, poolId}
                         <tr
                             on:click={() =>
-                                (selectedQuiz = {
-                                    id: poolId,
-                                    data: $dashboard.pool[poolId],
-                                })}
+                                selectQuiz(poolId, $dashboard.pool[poolId])}
                         >
                             <td>{poolItem.name}</td>
                             <td>{poolItem.questions.length}</td>
@@ -106,6 +110,10 @@
                         </tr>
                     {/each}
                 </table>
+            {:else}
+                <button style="width:100%" on:click={() => loadSamplePool()}
+                    >Load examples</button
+                >
             {/if}
             <button
                 style="width:100%; margin-top:2vh"

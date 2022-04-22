@@ -1,1 +1,1127 @@
-[{"uid":"pastaquiz-000000","name":"Ukrainian-English Months Naming","description":"A sample quiz featuring group param to make question options less random","author":"pastaquiz","authorLink":"https://pastaquiz.timurrin.ru","date":"2022-04-15T01:30:32+03:00","questions":[{"first":"Cічень","second":"January","group":"winter"},{"first":"Лютий","second":"Febuary","group":"winter"},{"first":"Березень","second":"March","group":"spring"},{"first":"Квітень","second":"April","group":"spring"},{"first":"Травень","second":"May","group":"spring"},{"first":"Червень","second":"June","group":"summer"},{"first":"Липень","second":"July","group":"summer"},{"first":"Серпень","second":"August","group":"summer"},{"first":"Вересень","second":"September","group":"fall"},{"first":"Жовтень","second":"October","group":"fall"},{"first":"Листопад","second":"November","group":"fall"},{"first":"Грудень","second":"December","group":"winter"}]},{"uid":"pastaquiz-000001","name":"English-German Swadesh List","desc":"This is a Swadesh list of words in German, compared with that of English","author":"Wiktionary","authorLink":"https://en.wiktionary.org/wiki/Appendix:German_Swadesh_list","date":"2022-04-15T23:04:49+03:00","questions":[{"first":"I (1sg)","second":"ich /ɪç /"},{"first":"you (2sg)","second":"du, Sie /duː /, /ziː /"},{"first":"he, she, it (3sg)","second":"er, sie, es /eːɐ̯ /, /ziː /, /ɛs /"},{"first":"we (1pl)","second":"wir /viːɐ̯ /"},{"first":"you (2pl)","second":"ihr, Sie /iːɐ̯ /, /ziː /"},{"first":"they (3pl)","second":"sie /ziː /"},{"first":"this","second":"dieser, diese, dieses, dies /ˈdiːzɐ /, /ˈdiːzə /, /ˈdiːzəs /, /diːs /"},{"first":"that","second":"der, die, das, jener, jene, jenes /deːɐ̯ /, /diː /, /das /, /ˈjeːnɐ /, /ˈjeːnə /, /ˈjeːnəs /"},{"first":"here","second":"hier /hiːɐ̯ /"},{"first":"there","second":"da, dort /daː /, /dɔʁt /"},{"first":"who","second":"wer /veːɐ̯ /"},{"first":"what","second":"was /vas /"},{"first":"where","second":"wo /voː /"},{"first":"when","second":"wann /van /"},{"first":"how","second":"wie /viː /"},{"first":"not","second":"nicht /nɪçt /"},{"first":"all","second":"alle /ˈalə /"},{"first":"many","second":"viele /ˈfiːlə /"},{"first":"some","second":"einige, manche /ˈaɪ̯nɪɡə /, /mançə /"},{"first":"few","second":"wenig /ˈveːnɪç /"},{"first":"other","second":"anderer /ˈand(ə)ʁɐ /"},{"first":"one","second":"eins /aɪ̯ns /"},{"first":"two","second":"zwei, zwo /tsvaɪ̯ /, /t͡svoː /"},{"first":"three","second":"drei /dʁaɪ̯ /"},{"first":"four","second":"vier /fiːɐ̯ /"},{"first":"five","second":"fünf /fʏnf /"},{"first":"big","second":"groß /ɡʁoːs /"},{"first":"long","second":"lang /laŋ /"},{"first":"wide","second":"breit, weit /bʁaɪ̯t /, /vaɪ̯t /"},{"first":"thick","second":"dick /dɪk /"},{"first":"heavy","second":"schwer /ʃveːɐ̯ /"},{"first":"small","second":"klein /klaɪ̯n /"},{"first":"short","second":"kurz /kʊʁts /"},{"first":"narrow","second":"eng, schmal /ɛŋ /, /ʃmaːl /"},{"first":"thin","second":"dünn /dʏn /"},{"first":"woman","second":"Frau, Weib /fʁaʊ̯ /, /vaɪ̯p /"},{"first":"man (adult male)","second":"Mann /man /"},{"first":"man (human being)","second":"Mensch /mɛnʃ /"},{"first":"child","second":"Kind /kɪnt /"},{"first":"wife","second":"Frau, Ehefrau /fʁaʊ̯ /, /ˈeːəfʁaʊ̯ /"},{"first":"husband","second":"Mann, Ehemann /man /, /ˈeːəman /"},{"first":"mother","second":"Mutter /ˈmʊtɐ /"},{"first":"father","second":"Vater /ˈfaːtɐ /"},{"first":"animal","second":"Tier /tiːɐ̯ /"},{"first":"fish","second":"Fisch /fɪʃ /"},{"first":"bird","second":"Vogel /ˈfoːɡəl /"},{"first":"dog","second":"Hund /hʊnt /"},{"first":"louse","second":"Laus /laʊ̯s /"},{"first":"snake","second":"Schlange /ˈʃlaŋə /"},{"first":"worm","second":"Wurm /vʊʁm /"},{"first":"tree","second":"Baum /baʊ̯m /"},{"first":"forest","second":"Forst, Wald /fɔɐ̯st /, /valt /"},{"first":"stick","second":"Stock /ʃtɔk /"},{"first":"fruit","second":"Frucht, Obst /fʁʊxt /, /oːpst /"},{"first":"seed","second":"Samen, Saat /ˈzaːmən /, /zaːt /"},{"first":"leaf","second":"Blatt /blat /"},{"first":"root","second":"Wurzel /ˈvʊʁtsəl /"},{"first":"bark (of a tree)","second":"Borke, Rinde /ˈbɔʁ.kə /, /ˈʁɪndə /"},{"first":"flower","second":"Blume /ˈbluːmə /"},{"first":"grass","second":"Gras /ɡʁaːs /"},{"first":"rope","second":"Leine, Seil, Strick /ˈlaɪ̯nə /, /zaɪ̯l /, /ʃtʁɪk /"},{"first":"skin","second":"Haut /haʊ̯t /"},{"first":"meat","second":"Fleisch /flaɪ̯ʃ /"},{"first":"blood","second":"Blut /bluːt /"},{"first":"bone","second":"Knochen /ˈknɔxən /"},{"first":"fat (noun)","second":"Fett /fɛt /"},{"first":"egg","second":"Ei /aɪ̯ /"},{"first":"horn","second":"Horn /hɔʁn /"},{"first":"tail","second":"Schwanz, Schweif /ʃvants /, /ʃvaɪ̯f /"},{"first":"feather","second":"Feder /ˈfeːdɐ /"},{"first":"hair","second":"Haar /haːɐ̯ /"},{"first":"head","second":"Haupt, Kopf /haʊ̯pt /, /kɔpf /"},{"first":"ear","second":"Ohr /oːɐ̯ /"},{"first":"eye","second":"Auge /ˈaʊ̯ɡə /"},{"first":"nose","second":"Nase /ˈnaːzə /"},{"first":"mouth","second":"Mund /mʊnt /"},{"first":"tooth","second":"Zahn /tsaːn /"},{"first":"tongue (organ)","second":"Zunge /ˈtsʊŋə /"},{"first":"fingernail","second":"Fingernagel /ˈfɪŋɐnaːɡəl /"},{"first":"foot","second":"Fuß /fuːs /"},{"first":"leg","second":"Bein /baɪ̯n /"},{"first":"knee","second":"Knie /kniː /"},{"first":"hand","second":"Hand /hant /"},{"first":"wing","second":"Fittich, Flügel, Schwinge /ˈfɪtɪç /, /ˈflyːɡəl /, /ˈʃvɪŋə /"},{"first":"belly","second":"Bauch, Leib /baʊ̯x /, /laɪ̯p /"},{"first":"guts","second":"Eingeweide, Gedärm, Innereien, Kaldaunen /ˈaɪ̯nɡəvaɪ̯də /, /ɡəˈdɛrm /, /ɪnəˈʁaɪ̯ən /, /kalˈdaʊ̯nən /"},{"first":"neck","second":"Hals, Nacken /hals /, /ˈnakən /"},{"first":"back","second":"Rücken /ˈʁʏkən /"},{"first":"breast","second":"Brust, Busen /bʁʊst /, /ˈbuːzn̩ /"},{"first":"heart","second":"Herz /hɛʁts /"},{"first":"liver","second":"Leber /ˈleːbɐ /"},{"first":"to drink","second":"trinken /ˈtʁɪŋkən /"},{"first":"to eat","second":"essen /ˈɛsən /"},{"first":"to bite","second":"beißen /ˈbaɪ̯sən /"},{"first":"to suck","second":"lutschen, saugen /ˈlʊ.t͡ʃn̩ /, /ˈzaʊ̯ɡən /"},{"first":"to spit","second":"speien, spucken /ˈʃpaɪ̯ən /, /ˈʃpʊkən /"},{"first":"to vomit","second":"brechen, erbrechen /ˈbʁɛçən /, /ɛɐ̯ˈbʁɛçən /"},{"first":"to blow","second":"blasen, pusten, wehen /ˈblaːzən /, /ˈpuːstən /, /ˈveː.ən /"},{"first":"to breathe","second":"atmen /ˈaːtmən /"},{"first":"to laugh","second":"lachen /ˈlaxən /"},{"first":"to see","second":"sehen /ˈzeːən /"},{"first":"to hear","second":"hören /ˈhøːʁən /"},{"first":"to know","second":"kennen, wissen /ˈkɛnən /, /ˈvɪsən /"},{"first":"to think","second":"denken /ˈdɛŋkən /"},{"first":"to smell","second":"riechen /ˈʁiːçən /"},{"first":"to fear","second":"fürchten /ˈfʏʁçtən /"},{"first":"to sleep","second":"schlafen /ˈʃlaːfən /"},{"first":"to live","second":"leben /ˈleːbən /"},{"first":"to die","second":"sterben /ˈʃtɛʁbən /"},{"first":"to kill","second":"töten, umbringen /ˈtøːtən /, /ˈʔʊmˌbʁɪŋən /"},{"first":"to fight","second":"fechten, kämpfen /ˈfɛçtən /, /ˈkɛmpfən /"},{"first":"to hunt","second":"jagen /ˈjaːɡən /"},{"first":"to hit","second":"schlagen /ˈʃlaːɡən /"},{"first":"to cut","second":"schneiden /ˈʃnaɪ̯dən /"},{"first":"to split","second":"spalten, spleißen /ˈʃpaltən /, /ˈʃplaɪ̯sn̩ /"},{"first":"to stab","second":"stechen /ˈʃtɛçən /"},{"first":"to scratch","second":"kratzen, ritzen, scharren /ˈkʁatsən /, /ˈʁɪt͡sən /, /ˈʃaʁn̩ /"},{"first":"to dig","second":"graben /ˈɡʁaːbən /"},{"first":"to swim","second":"schwimmen /ˈʃvɪmən /"},{"first":"to fly","second":"fliegen /ˈfliːɡən /"},{"first":"to walk","second":"gehen /ˈɡeːən /"},{"first":"to come","second":"kommen /ˈkɔmən /"},{"first":"to lie (as in a bed)","second":"liegen /ˈliːɡən /"},{"first":"to sit","second":"sitzen /ˈzɪtsən /"},{"first":"to stand","second":"stehen /ˈʃteːən /"},{"first":"to turn (intransitive)","second":"drehen /ˈdʁeːən /"},{"first":"to fall","second":"fallen /ˈfalən /"},{"first":"to give","second":"geben /ˈɡeːbən /"},{"first":"to hold","second":"halten /ˈhaltən /"},{"first":"to squeeze","second":"quetschen /ˈkvɛtʃən /"},{"first":"to rub","second":"reiben /ˈʁaɪ̯bən /"},{"first":"to wash","second":"waschen /ˈvaʃən /"},{"first":"to wipe","second":"wischen /ˈvɪʃən /"},{"first":"to pull","second":"ziehen /ˈtsiːən /"},{"first":"to push","second":"drücken, schieben /ˈdʁʏkən /, /ˈʃiːbən /"},{"first":"to throw","second":"werfen /ˈvɛʁfən /"},{"first":"to tie","second":"binden, knüpfen /ˈbɪndən /, /ˈknʏpfən /"},{"first":"to sew","second":"nähen /ˈnɛːən /"},{"first":"to count","second":"rechnen, zählen /ˈʁɛçnən /, /ˈtsɛːlən /"},{"first":"to say","second":"sagen /ˈzaːɡən /"},{"first":"to sing","second":"singen /ˈzɪŋən /"},{"first":"to play","second":"spielen /ˈʃpiːlən /"},{"first":"to float","second":"schweben /ˈʃveːbən /"},{"first":"to flow","second":"fließen, strömen /ˈfliːsən /, /ˈʃtʁøːmən /"},{"first":"to freeze","second":"frieren /ˈfʁiːrən /"},{"first":"to swell","second":"schwellen /ˈʃvɛlən /"},{"first":"sun","second":"Sonne /ˈzɔnə /"},{"first":"moon","second":"Mond /moːnt /"},{"first":"star","second":"Stern /ʃtɛʁn /"},{"first":"water","second":"Wasser /ˈvasɐ /"},{"first":"rain","second":"Regen /ˈʁeːɡən /"},{"first":"river","second":"Fluss /flʊs /"},{"first":"lake","second":"See /zeː /"},{"first":"sea","second":"Meer /meːɐ̯ /"},{"first":"salt","second":"Salz /zalts /"},{"first":"stone","second":"Stein /ʃtaɪ̯n /"},{"first":"sand","second":"Sand /zant /"},{"first":"dust","second":"Staub /ʃtaʊ̯p /"},{"first":"earth","second":"Erde /ˈeːɐ̯də /"},{"first":"cloud","second":"Wolke /ˈvɔlkə /"},{"first":"fog","second":"Nebel /ˈneːbəl /"},{"first":"sky","second":"Himmel /ˈhɪməl /"},{"first":"wind","second":"Wind /vɪnt /"},{"first":"snow","second":"Schnee /ʃneː /"},{"first":"ice","second":"Eis /aɪ̯s /"},{"first":"smoke","second":"Rauch /ʁaʊ̯x /"},{"first":"fire","second":"Feuer /ˈfɔʏɐ /"},{"first":"ash","second":"Asche /ˈaʃə /"},{"first":"to burn","second":"brennen /ˈbʁɛnən /"},{"first":"road","second":"Straße /ˈʃtʁaːsə /"},{"first":"mountain","second":"Berg /bɛʁk /"},{"first":"red","second":"rot /ʁoːt /"},{"first":"green","second":"grün /ɡʁyːn /"},{"first":"yellow","second":"gelb /ɡɛlp /"},{"first":"white","second":"weiß /vaɪ̯s /"},{"first":"black","second":"schwarz /ʃvaʁts /"},{"first":"night","second":"Nacht /naxt /"},{"first":"day","second":"Tag /taːk /"},{"first":"year","second":"Jahr /jaːɐ̯ /"},{"first":"warm","second":"warm /vaʁm /"},{"first":"cold","second":"kalt /kalt /"},{"first":"full","second":"voll /fɔl /"},{"first":"new","second":"neu /nɔʏ̯ /"},{"first":"old","second":"alt /alt /"},{"first":"good","second":"gut /ɡuːt /"},{"first":"bad","second":"schlecht, übel /ʃlɛçt /, /ˈʔyː.bl̩ /"},{"first":"rotten","second":"faul, verrottet /faʊ̯l /, /fɛɐ̯ˈʁɔtət /"},{"first":"dirty","second":"schmutzig, dreckig /ˈʃmʊtsɪç /, /ˈdʁɛkɪç /"},{"first":"straight","second":"gerade /ɡ(ə)ˈʁaːdə /"},{"first":"round","second":"rund /ʁʊnt /"},{"first":"sharp (as a knife)","second":"scharf /ʃaʁf /"},{"first":"dull (as a knife)","second":"stumpf /ʃtʊmpf /"},{"first":"smooth","second":"glatt /ɡlat /"},{"first":"wet","second":"nass, feucht /nas /, /fɔʏ̯çt /"},{"first":"dry","second":"dürr, trocken /dʏʁ /, /ˈtʁɔkən /"},{"first":"correct","second":"richtig /ˈʁɪçtɪç /"},{"first":"near","second":"nah /ˈnaː /"},{"first":"far","second":"fern, weit /fɛʁn /, /vaɪ̯t /"},{"first":"right","second":"recht /ʁɛçt /"},{"first":"left","second":"link /lɪŋk /"},{"first":"at","second":"an, bei /an /, /baɪ̯ /"},{"first":"in","second":"in /ɪn /"},{"first":"with","second":"mit /mɪt /"},{"first":"and","second":"und /ʊnt /"},{"first":"if","second":"ob, wenn /ɔp /, /vɛn /"},{"first":"because","second":"weil /vaɪ̯l /"},{"first":"name","second":"Name /ˈnaːmə /"}]}]
+[
+    {
+        "uid": "pastaquiz-000000",
+        "dataVersion": 2,
+        "name": "Ukrainian-English Months Naming",
+        "description": "A sample quiz featuring group param to make question options less random",
+        "author": "pastaquiz",
+        "authorLink": "https://pastaquiz.timurrin.ru",
+        "labels": {
+            "first": "Ukrainian",
+            "second": "English"
+        },
+        "date": "2022-04-15T01:30:32+03:00",
+        "questions": [
+            {
+                "first": "Cічень",
+                "second": "January",
+                "groups": ["winter"]
+            },
+            {
+                "first": "Лютий",
+                "second": "Febuary",
+                "groups": ["winter"]
+            },
+            {
+                "first": "Березень",
+                "second": "March",
+                "groups": ["spring"]
+            },
+            {
+                "first": "Квітень",
+                "second": "April",
+                "groups": ["spring"]
+            },
+            {
+                "first": "Травень",
+                "second": "May",
+                "groups": ["spring"]
+            },
+            {
+                "first": "Червень",
+                "second": "June",
+                "groups": ["summer"]
+            },
+            {
+                "first": "Липень",
+                "second": "July",
+                "groups": ["summer"]
+            },
+            {
+                "first": "Серпень",
+                "second": "August",
+                "groups": ["summer"]
+            },
+            {
+                "first": "Вересень",
+                "second": "September",
+                "groups": ["fall"]
+            },
+            {
+                "first": "Жовтень",
+                "second": "October",
+                "groups": ["fall"]
+            },
+            {
+                "first": "Листопад",
+                "second": "November",
+                "groups": ["fall"]
+            },
+            {
+                "first": "Грудень",
+                "second": "December",
+                "groups": ["winter"]
+            }
+        ]
+    },
+    {
+        "uid": "pastaquiz-000001",
+        "dataVersion": 2,
+        "name": "English-German Swadesh List",
+        "desc": "This is a Swadesh list of words in German, compared with that of English",
+        "author": "Wiktionary",
+        "authorLink": "https://en.wiktionary.org/wiki/Appendix:German_Swadesh_list",
+        "labels": {
+            "first": "English",
+            "second": "German"
+        },
+        "date": "2022-04-15T23:04:49+03:00",
+        "questions": [
+            {
+                "first": "I (1sg)",
+                "second": "ich",
+                "secondExtra": "/ɪç/"
+            },
+            {
+                "first": "you (2sg)",
+                "second": "du, Sie",
+                "secondExtra": "/duː/, /ziː/"
+            },
+            {
+                "first": "he, she, it (3sg)",
+                "second": "er, sie, es",
+                "secondExtra": "/eːɐ̯/, /ziː/, /ɛs/"
+            },
+            {
+                "first": "we (1pl)",
+                "second": "wir",
+                "secondExtra": "/viːɐ̯/"
+            },
+            {
+                "first": "you (2pl)",
+                "second": "ihr, Sie",
+                "secondExtra": "/iːɐ̯/, /ziː/"
+            },
+            {
+                "first": "they (3pl)",
+                "second": "sie",
+                "secondExtra": "/ziː/"
+            },
+            {
+                "first": "this",
+                "second": "dieser, diese, dieses, dies",
+                "secondExtra": "/ˈdiːzɐ/, /ˈdiːzə/, /ˈdiːzəs/, /diːs/"
+            },
+            {
+                "first": "that",
+                "second": "der, die, das, jener, jene, jenes",
+                "secondExtra": "/deːɐ̯/, /diː/, /das/, /ˈjeːnɐ/, /ˈjeːnə/, /ˈjeːnəs/"
+            },
+            {
+                "first": "here",
+                "second": "hier",
+                "secondExtra": "/hiːɐ̯/"
+            },
+            {
+                "first": "there",
+                "second": "da, dort",
+                "secondExtra": "/daː/, /dɔʁt/"
+            },
+            {
+                "first": "who",
+                "second": "wer",
+                "secondExtra": "/veːɐ̯/"
+            },
+            {
+                "first": "what",
+                "second": "was",
+                "secondExtra": "/vas/"
+            },
+            {
+                "first": "where",
+                "second": "wo",
+                "secondExtra": "/voː/"
+            },
+            {
+                "first": "when",
+                "second": "wann",
+                "secondExtra": "/van/"
+            },
+            {
+                "first": "how",
+                "second": "wie",
+                "secondExtra": "/viː/"
+            },
+            {
+                "first": "not",
+                "second": "nicht",
+                "secondExtra": "/nɪçt/"
+            },
+            {
+                "first": "all",
+                "second": "alle",
+                "secondExtra": "/ˈalə/"
+            },
+            {
+                "first": "many",
+                "second": "viele",
+                "secondExtra": "/ˈfiːlə/"
+            },
+            {
+                "first": "some",
+                "second": "einige, manche",
+                "secondExtra": "/ˈaɪ̯nɪɡə/, /mançə/"
+            },
+            {
+                "first": "few",
+                "second": "wenig",
+                "secondExtra": "/ˈveːnɪç/"
+            },
+            {
+                "first": "other",
+                "second": "anderer",
+                "secondExtra": "/ˈand(ə)ʁɐ/"
+            },
+            {
+                "first": "one",
+                "second": "eins",
+                "secondExtra": "/aɪ̯ns/"
+            },
+            {
+                "first": "two",
+                "second": "zwei, zwo",
+                "secondExtra": "/tsvaɪ̯/, /t͡svoː/"
+            },
+            {
+                "first": "three",
+                "second": "drei",
+                "secondExtra": "/dʁaɪ̯/"
+            },
+            {
+                "first": "four",
+                "second": "vier",
+                "secondExtra": "/fiːɐ̯/"
+            },
+            {
+                "first": "five",
+                "second": "fünf",
+                "secondExtra": "/fʏnf/"
+            },
+            {
+                "first": "big",
+                "second": "groß",
+                "secondExtra": "/ɡʁoːs/"
+            },
+            {
+                "first": "long",
+                "second": "lang",
+                "secondExtra": "/laŋ/"
+            },
+            {
+                "first": "wide",
+                "second": "breit, weit",
+                "secondExtra": "/bʁaɪ̯t/, /vaɪ̯t/"
+            },
+            {
+                "first": "thick",
+                "second": "dick",
+                "secondExtra": "/dɪk/"
+            },
+            {
+                "first": "heavy",
+                "second": "schwer",
+                "secondExtra": "/ʃveːɐ̯/"
+            },
+            {
+                "first": "small",
+                "second": "klein",
+                "secondExtra": "/klaɪ̯n/"
+            },
+            {
+                "first": "short",
+                "second": "kurz",
+                "secondExtra": "/kʊʁts/"
+            },
+            {
+                "first": "narrow",
+                "second": "eng, schmal",
+                "secondExtra": "/ɛŋ/, /ʃmaːl/"
+            },
+            {
+                "first": "thin",
+                "second": "dünn",
+                "secondExtra": "/dʏn/"
+            },
+            {
+                "first": "woman",
+                "second": "Frau, Weib",
+                "secondExtra": "/fʁaʊ̯/, /vaɪ̯p/"
+            },
+            {
+                "first": "man (adult male)",
+                "second": "Mann",
+                "secondExtra": "/man/"
+            },
+            {
+                "first": "man (human being)",
+                "second": "Mensch",
+                "secondExtra": "/mɛnʃ/"
+            },
+            {
+                "first": "child",
+                "second": "Kind",
+                "secondExtra": "/kɪnt/"
+            },
+            {
+                "first": "wife",
+                "second": "Frau, Ehefrau",
+                "secondExtra": "/fʁaʊ̯/, /ˈeːəfʁaʊ̯/"
+            },
+            {
+                "first": "husband",
+                "second": "Mann, Ehemann",
+                "secondExtra": "/man/, /ˈeːəman/"
+            },
+            {
+                "first": "mother",
+                "second": "Mutter",
+                "secondExtra": "/ˈmʊtɐ/"
+            },
+            {
+                "first": "father",
+                "second": "Vater",
+                "secondExtra": "/ˈfaːtɐ/"
+            },
+            {
+                "first": "animal",
+                "second": "Tier",
+                "secondExtra": "/tiːɐ̯/"
+            },
+            {
+                "first": "fish",
+                "second": "Fisch",
+                "secondExtra": "/fɪʃ/"
+            },
+            {
+                "first": "bird",
+                "second": "Vogel",
+                "secondExtra": "/ˈfoːɡəl/"
+            },
+            {
+                "first": "dog",
+                "second": "Hund",
+                "secondExtra": "/hʊnt/"
+            },
+            {
+                "first": "louse",
+                "second": "Laus",
+                "secondExtra": "/laʊ̯s/"
+            },
+            {
+                "first": "snake",
+                "second": "Schlange",
+                "secondExtra": "/ˈʃlaŋə/"
+            },
+            {
+                "first": "worm",
+                "second": "Wurm",
+                "secondExtra": "/vʊʁm/"
+            },
+            {
+                "first": "tree",
+                "second": "Baum",
+                "secondExtra": "/baʊ̯m/"
+            },
+            {
+                "first": "forest",
+                "second": "Forst, Wald",
+                "secondExtra": "/fɔɐ̯st/, /valt/"
+            },
+            {
+                "first": "stick",
+                "second": "Stock",
+                "secondExtra": "/ʃtɔk/"
+            },
+            {
+                "first": "fruit",
+                "second": "Frucht, Obst",
+                "secondExtra": "/fʁʊxt/, /oːpst/"
+            },
+            {
+                "first": "seed",
+                "second": "Samen, Saat",
+                "secondExtra": "/ˈzaːmən/, /zaːt/"
+            },
+            {
+                "first": "leaf",
+                "second": "Blatt",
+                "secondExtra": "/blat/"
+            },
+            {
+                "first": "root",
+                "second": "Wurzel",
+                "secondExtra": "/ˈvʊʁtsəl/"
+            },
+            {
+                "first": "bark (of a tree)",
+                "second": "Borke, Rinde",
+                "secondExtra": "/ˈbɔʁ.kə/, /ˈʁɪndə/"
+            },
+            {
+                "first": "flower",
+                "second": "Blume",
+                "secondExtra": "/ˈbluːmə/"
+            },
+            {
+                "first": "grass",
+                "second": "Gras",
+                "secondExtra": "/ɡʁaːs/"
+            },
+            {
+                "first": "rope",
+                "second": "Leine, Seil, Strick",
+                "secondExtra": "/ˈlaɪ̯nə/, /zaɪ̯l/, /ʃtʁɪk/"
+            },
+            {
+                "first": "skin",
+                "second": "Haut",
+                "secondExtra": "/haʊ̯t/"
+            },
+            {
+                "first": "meat",
+                "second": "Fleisch",
+                "secondExtra": "/flaɪ̯ʃ/"
+            },
+            {
+                "first": "blood",
+                "second": "Blut",
+                "secondExtra": "/bluːt/"
+            },
+            {
+                "first": "bone",
+                "second": "Knochen",
+                "secondExtra": "/ˈknɔxən/"
+            },
+            {
+                "first": "fat (noun)",
+                "second": "Fett",
+                "secondExtra": "/fɛt/"
+            },
+            {
+                "first": "egg",
+                "second": "Ei",
+                "secondExtra": "/aɪ̯/"
+            },
+            {
+                "first": "horn",
+                "second": "Horn",
+                "secondExtra": "/hɔʁn/"
+            },
+            {
+                "first": "tail",
+                "second": "Schwanz, Schweif",
+                "secondExtra": "/ʃvants/, /ʃvaɪ̯f/"
+            },
+            {
+                "first": "feather",
+                "second": "Feder",
+                "secondExtra": "/ˈfeːdɐ/"
+            },
+            {
+                "first": "hair",
+                "second": "Haar",
+                "secondExtra": "/haːɐ̯/"
+            },
+            {
+                "first": "head",
+                "second": "Haupt, Kopf",
+                "secondExtra": "/haʊ̯pt/, /kɔpf/"
+            },
+            {
+                "first": "ear",
+                "second": "Ohr",
+                "secondExtra": "/oːɐ̯/"
+            },
+            {
+                "first": "eye",
+                "second": "Auge",
+                "secondExtra": "/ˈaʊ̯ɡə/"
+            },
+            {
+                "first": "nose",
+                "second": "Nase",
+                "secondExtra": "/ˈnaːzə/"
+            },
+            {
+                "first": "mouth",
+                "second": "Mund",
+                "secondExtra": "/mʊnt/"
+            },
+            {
+                "first": "tooth",
+                "second": "Zahn",
+                "secondExtra": "/tsaːn/"
+            },
+            {
+                "first": "tongue (organ)",
+                "second": "Zunge",
+                "secondExtra": "/ˈtsʊŋə/"
+            },
+            {
+                "first": "fingernail",
+                "second": "Fingernagel",
+                "secondExtra": "/ˈfɪŋɐnaːɡəl/"
+            },
+            {
+                "first": "foot",
+                "second": "Fuß",
+                "secondExtra": "/fuːs/"
+            },
+            {
+                "first": "leg",
+                "second": "Bein",
+                "secondExtra": "/baɪ̯n/"
+            },
+            {
+                "first": "knee",
+                "second": "Knie",
+                "secondExtra": "/kniː/"
+            },
+            {
+                "first": "hand",
+                "second": "Hand",
+                "secondExtra": "/hant/"
+            },
+            {
+                "first": "wing",
+                "second": "Fittich, Flügel, Schwinge",
+                "secondExtra": "/ˈfɪtɪç/, /ˈflyːɡəl/, /ˈʃvɪŋə/"
+            },
+            {
+                "first": "belly",
+                "second": "Bauch, Leib",
+                "secondExtra": "/baʊ̯x/, /laɪ̯p/"
+            },
+            {
+                "first": "guts",
+                "second": "Eingeweide, Gedärm, Innereien, Kaldaunen",
+                "secondExtra": "/ˈaɪ̯nɡəvaɪ̯də/, /ɡəˈdɛrm/, /ɪnəˈʁaɪ̯ən/, /kalˈdaʊ̯nən/"
+            },
+            {
+                "first": "neck",
+                "second": "Hals, Nacken",
+                "secondExtra": "/hals/, /ˈnakən/"
+            },
+            {
+                "first": "back",
+                "second": "Rücken",
+                "secondExtra": "/ˈʁʏkən/"
+            },
+            {
+                "first": "breast",
+                "second": "Brust, Busen",
+                "secondExtra": "/bʁʊst/, /ˈbuːzn̩/"
+            },
+            {
+                "first": "heart",
+                "second": "Herz",
+                "secondExtra": "/hɛʁts/"
+            },
+            {
+                "first": "liver",
+                "second": "Leber",
+                "secondExtra": "/ˈleːbɐ/"
+            },
+            {
+                "first": "to drink",
+                "second": "trinken",
+                "secondExtra": "/ˈtʁɪŋkən/"
+            },
+            {
+                "first": "to eat",
+                "second": "essen",
+                "secondExtra": "/ˈɛsən/"
+            },
+            {
+                "first": "to bite",
+                "second": "beißen",
+                "secondExtra": "/ˈbaɪ̯sən/"
+            },
+            {
+                "first": "to suck",
+                "second": "lutschen, saugen",
+                "secondExtra": "/ˈlʊ.t͡ʃn̩/, /ˈzaʊ̯ɡən/"
+            },
+            {
+                "first": "to spit",
+                "second": "speien, spucken",
+                "secondExtra": "/ˈʃpaɪ̯ən/, /ˈʃpʊkən/"
+            },
+            {
+                "first": "to vomit",
+                "second": "brechen, erbrechen",
+                "secondExtra": "/ˈbʁɛçən/, /ɛɐ̯ˈbʁɛçən/"
+            },
+            {
+                "first": "to blow",
+                "second": "blasen, pusten, wehen",
+                "secondExtra": "/ˈblaːzən/, /ˈpuːstən/, /ˈveː.ən/"
+            },
+            {
+                "first": "to breathe",
+                "second": "atmen",
+                "secondExtra": "/ˈaːtmən/"
+            },
+            {
+                "first": "to laugh",
+                "second": "lachen",
+                "secondExtra": "/ˈlaxən/"
+            },
+            {
+                "first": "to see",
+                "second": "sehen",
+                "secondExtra": "/ˈzeːən/"
+            },
+            {
+                "first": "to hear",
+                "second": "hören",
+                "secondExtra": "/ˈhøːʁən/"
+            },
+            {
+                "first": "to know",
+                "second": "kennen, wissen",
+                "secondExtra": "/ˈkɛnən/, /ˈvɪsən/"
+            },
+            {
+                "first": "to think",
+                "second": "denken",
+                "secondExtra": "/ˈdɛŋkən/"
+            },
+            {
+                "first": "to smell",
+                "second": "riechen",
+                "secondExtra": "/ˈʁiːçən/"
+            },
+            {
+                "first": "to fear",
+                "second": "fürchten",
+                "secondExtra": "/ˈfʏʁçtən/"
+            },
+            {
+                "first": "to sleep",
+                "second": "schlafen",
+                "secondExtra": "/ˈʃlaːfən/"
+            },
+            {
+                "first": "to live",
+                "second": "leben",
+                "secondExtra": "/ˈleːbən/"
+            },
+            {
+                "first": "to die",
+                "second": "sterben",
+                "secondExtra": "/ˈʃtɛʁbən/"
+            },
+            {
+                "first": "to kill",
+                "second": "töten, umbringen",
+                "secondExtra": "/ˈtøːtən/, /ˈʔʊmˌbʁɪŋən/"
+            },
+            {
+                "first": "to fight",
+                "second": "fechten, kämpfen",
+                "secondExtra": "/ˈfɛçtən/, /ˈkɛmpfən/"
+            },
+            {
+                "first": "to hunt",
+                "second": "jagen",
+                "secondExtra": "/ˈjaːɡən/"
+            },
+            {
+                "first": "to hit",
+                "second": "schlagen",
+                "secondExtra": "/ˈʃlaːɡən/"
+            },
+            {
+                "first": "to cut",
+                "second": "schneiden",
+                "secondExtra": "/ˈʃnaɪ̯dən/"
+            },
+            {
+                "first": "to split",
+                "second": "spalten, spleißen",
+                "secondExtra": "/ˈʃpaltən/, /ˈʃplaɪ̯sn̩/"
+            },
+            {
+                "first": "to stab",
+                "second": "stechen",
+                "secondExtra": "/ˈʃtɛçən/"
+            },
+            {
+                "first": "to scratch",
+                "second": "kratzen, ritzen, scharren",
+                "secondExtra": "/ˈkʁatsən/, /ˈʁɪt͡sən/, /ˈʃaʁn̩/"
+            },
+            {
+                "first": "to dig",
+                "second": "graben",
+                "secondExtra": "/ˈɡʁaːbən/"
+            },
+            {
+                "first": "to swim",
+                "second": "schwimmen",
+                "secondExtra": "/ˈʃvɪmən/"
+            },
+            {
+                "first": "to fly",
+                "second": "fliegen",
+                "secondExtra": "/ˈfliːɡən/"
+            },
+            {
+                "first": "to walk",
+                "second": "gehen",
+                "secondExtra": "/ˈɡeːən/"
+            },
+            {
+                "first": "to come",
+                "second": "kommen",
+                "secondExtra": "/ˈkɔmən/"
+            },
+            {
+                "first": "to lie (as in a bed)",
+                "second": "liegen",
+                "secondExtra": "/ˈliːɡən/"
+            },
+            {
+                "first": "to sit",
+                "second": "sitzen",
+                "secondExtra": "/ˈzɪtsən/"
+            },
+            {
+                "first": "to stand",
+                "second": "stehen",
+                "secondExtra": "/ˈʃteːən/"
+            },
+            {
+                "first": "to turn (intransitive)",
+                "second": "drehen",
+                "secondExtra": "/ˈdʁeːən/"
+            },
+            {
+                "first": "to fall",
+                "second": "fallen",
+                "secondExtra": "/ˈfalən/"
+            },
+            {
+                "first": "to give",
+                "second": "geben",
+                "secondExtra": "/ˈɡeːbən/"
+            },
+            {
+                "first": "to hold",
+                "second": "halten",
+                "secondExtra": "/ˈhaltən/"
+            },
+            {
+                "first": "to squeeze",
+                "second": "quetschen",
+                "secondExtra": "/ˈkvɛtʃən/"
+            },
+            {
+                "first": "to rub",
+                "second": "reiben",
+                "secondExtra": "/ˈʁaɪ̯bən/"
+            },
+            {
+                "first": "to wash",
+                "second": "waschen",
+                "secondExtra": "/ˈvaʃən/"
+            },
+            {
+                "first": "to wipe",
+                "second": "wischen",
+                "secondExtra": "/ˈvɪʃən/"
+            },
+            {
+                "first": "to pull",
+                "second": "ziehen",
+                "secondExtra": "/ˈtsiːən/"
+            },
+            {
+                "first": "to push",
+                "second": "drücken, schieben",
+                "secondExtra": "/ˈdʁʏkən/, /ˈʃiːbən/"
+            },
+            {
+                "first": "to throw",
+                "second": "werfen",
+                "secondExtra": "/ˈvɛʁfən/"
+            },
+            {
+                "first": "to tie",
+                "second": "binden, knüpfen",
+                "secondExtra": "/ˈbɪndən/, /ˈknʏpfən/"
+            },
+            {
+                "first": "to sew",
+                "second": "nähen",
+                "secondExtra": "/ˈnɛːən/"
+            },
+            {
+                "first": "to count",
+                "second": "rechnen, zählen",
+                "secondExtra": "/ˈʁɛçnən/, /ˈtsɛːlən/"
+            },
+            {
+                "first": "to say",
+                "second": "sagen",
+                "secondExtra": "/ˈzaːɡən/"
+            },
+            {
+                "first": "to sing",
+                "second": "singen",
+                "secondExtra": "/ˈzɪŋən/"
+            },
+            {
+                "first": "to play",
+                "second": "spielen",
+                "secondExtra": "/ˈʃpiːlən/"
+            },
+            {
+                "first": "to float",
+                "second": "schweben",
+                "secondExtra": "/ˈʃveːbən/"
+            },
+            {
+                "first": "to flow",
+                "second": "fließen, strömen",
+                "secondExtra": "/ˈfliːsən/, /ˈʃtʁøːmən/"
+            },
+            {
+                "first": "to freeze",
+                "second": "frieren",
+                "secondExtra": "/ˈfʁiːrən/"
+            },
+            {
+                "first": "to swell",
+                "second": "schwellen",
+                "secondExtra": "/ˈʃvɛlən/"
+            },
+            {
+                "first": "sun",
+                "second": "Sonne",
+                "secondExtra": "/ˈzɔnə/"
+            },
+            {
+                "first": "moon",
+                "second": "Mond",
+                "secondExtra": "/moːnt/"
+            },
+            {
+                "first": "star",
+                "second": "Stern",
+                "secondExtra": "/ʃtɛʁn/"
+            },
+            {
+                "first": "water",
+                "second": "Wasser",
+                "secondExtra": "/ˈvasɐ/"
+            },
+            {
+                "first": "rain",
+                "second": "Regen",
+                "secondExtra": "/ˈʁeːɡən/"
+            },
+            {
+                "first": "river",
+                "second": "Fluss",
+                "secondExtra": "/flʊs/"
+            },
+            {
+                "first": "lake",
+                "second": "See",
+                "secondExtra": "/zeː/"
+            },
+            {
+                "first": "sea",
+                "second": "Meer",
+                "secondExtra": "/meːɐ̯/"
+            },
+            {
+                "first": "salt",
+                "second": "Salz",
+                "secondExtra": "/zalts/"
+            },
+            {
+                "first": "stone",
+                "second": "Stein",
+                "secondExtra": "/ʃtaɪ̯n/"
+            },
+            {
+                "first": "sand",
+                "second": "Sand",
+                "secondExtra": "/zant/"
+            },
+            {
+                "first": "dust",
+                "second": "Staub",
+                "secondExtra": "/ʃtaʊ̯p/"
+            },
+            {
+                "first": "earth",
+                "second": "Erde",
+                "secondExtra": "/ˈeːɐ̯də/"
+            },
+            {
+                "first": "cloud",
+                "second": "Wolke",
+                "secondExtra": "/ˈvɔlkə/"
+            },
+            {
+                "first": "fog",
+                "second": "Nebel",
+                "secondExtra": "/ˈneːbəl/"
+            },
+            {
+                "first": "sky",
+                "second": "Himmel",
+                "secondExtra": "/ˈhɪməl/"
+            },
+            {
+                "first": "wind",
+                "second": "Wind",
+                "secondExtra": "/vɪnt/"
+            },
+            {
+                "first": "snow",
+                "second": "Schnee",
+                "secondExtra": "/ʃneː/"
+            },
+            {
+                "first": "ice",
+                "second": "Eis",
+                "secondExtra": "/aɪ̯s/"
+            },
+            {
+                "first": "smoke",
+                "second": "Rauch",
+                "secondExtra": "/ʁaʊ̯x/"
+            },
+            {
+                "first": "fire",
+                "second": "Feuer",
+                "secondExtra": "/ˈfɔʏɐ/"
+            },
+            {
+                "first": "ash",
+                "second": "Asche",
+                "secondExtra": "/ˈaʃə/"
+            },
+            {
+                "first": "to burn",
+                "second": "brennen",
+                "secondExtra": "/ˈbʁɛnən/"
+            },
+            {
+                "first": "road",
+                "second": "Straße",
+                "secondExtra": "/ˈʃtʁaːsə/"
+            },
+            {
+                "first": "mountain",
+                "second": "Berg",
+                "secondExtra": "/bɛʁk/"
+            },
+            {
+                "first": "red",
+                "second": "rot",
+                "secondExtra": "/ʁoːt/"
+            },
+            {
+                "first": "green",
+                "second": "grün",
+                "secondExtra": "/ɡʁyːn/"
+            },
+            {
+                "first": "yellow",
+                "second": "gelb",
+                "secondExtra": "/ɡɛlp/"
+            },
+            {
+                "first": "white",
+                "second": "weiß",
+                "secondExtra": "/vaɪ̯s/"
+            },
+            {
+                "first": "black",
+                "second": "schwarz",
+                "secondExtra": "/ʃvaʁts/"
+            },
+            {
+                "first": "night",
+                "second": "Nacht",
+                "secondExtra": "/naxt/"
+            },
+            {
+                "first": "day",
+                "second": "Tag",
+                "secondExtra": "/taːk/"
+            },
+            {
+                "first": "year",
+                "second": "Jahr",
+                "secondExtra": "/jaːɐ̯/"
+            },
+            {
+                "first": "warm",
+                "second": "warm",
+                "secondExtra": "/vaʁm/"
+            },
+            {
+                "first": "cold",
+                "second": "kalt",
+                "secondExtra": "/kalt/"
+            },
+            {
+                "first": "full",
+                "second": "voll",
+                "secondExtra": "/fɔl/"
+            },
+            {
+                "first": "new",
+                "second": "neu",
+                "secondExtra": "/nɔʏ̯/"
+            },
+            {
+                "first": "old",
+                "second": "alt",
+                "secondExtra": "/alt/"
+            },
+            {
+                "first": "good",
+                "second": "gut",
+                "secondExtra": "/ɡuːt/"
+            },
+            {
+                "first": "bad",
+                "second": "schlecht, übel",
+                "secondExtra": "/ʃlɛçt/, /ˈʔyː.bl̩/"
+            },
+            {
+                "first": "rotten",
+                "second": "faul, verrottet",
+                "secondExtra": "/faʊ̯l/, /fɛɐ̯ˈʁɔtət/"
+            },
+            {
+                "first": "dirty",
+                "second": "schmutzig, dreckig",
+                "secondExtra": "/ˈʃmʊtsɪç/, /ˈdʁɛkɪç/"
+            },
+            {
+                "first": "straight",
+                "second": "gerade",
+                "secondExtra": "/ɡ(ə)ˈʁaːdə/"
+            },
+            {
+                "first": "round",
+                "second": "rund",
+                "secondExtra": "/ʁʊnt/"
+            },
+            {
+                "first": "sharp (as a knife)",
+                "second": "scharf",
+                "secondExtra": "/ʃaʁf/"
+            },
+            {
+                "first": "dull (as a knife)",
+                "second": "stumpf",
+                "secondExtra": "/ʃtʊmpf/"
+            },
+            {
+                "first": "smooth",
+                "second": "glatt",
+                "secondExtra": "/ɡlat/"
+            },
+            {
+                "first": "wet",
+                "second": "nass, feucht",
+                "secondExtra": "/nas/, /fɔʏ̯çt/"
+            },
+            {
+                "first": "dry",
+                "second": "dürr, trocken",
+                "secondExtra": "/dʏʁ/, /ˈtʁɔkən/"
+            },
+            {
+                "first": "correct",
+                "second": "richtig",
+                "secondExtra": "/ˈʁɪçtɪç/"
+            },
+            {
+                "first": "near",
+                "second": "nah",
+                "secondExtra": "/ˈnaː/"
+            },
+            {
+                "first": "far",
+                "second": "fern, weit",
+                "secondExtra": "/fɛʁn/, /vaɪ̯t/"
+            },
+            {
+                "first": "right",
+                "second": "recht",
+                "secondExtra": "/ʁɛçt/"
+            },
+            {
+                "first": "left",
+                "second": "link",
+                "secondExtra": "/lɪŋk/"
+            },
+            {
+                "first": "at",
+                "second": "an, bei",
+                "secondExtra": "/an/, /baɪ̯/"
+            },
+            {
+                "first": "in",
+                "second": "in",
+                "secondExtra": "/ɪn/"
+            },
+            {
+                "first": "with",
+                "second": "mit",
+                "secondExtra": "/mɪt/"
+            },
+            {
+                "first": "and",
+                "second": "und",
+                "secondExtra": "/ʊnt/"
+            },
+            {
+                "first": "if",
+                "second": "ob, wenn",
+                "secondExtra": "/ɔp/, /vɛn/"
+            },
+            {
+                "first": "because",
+                "second": "weil",
+                "secondExtra": "/vaɪ̯l/"
+            },
+            {
+                "first": "name",
+                "second": "Name",
+                "secondExtra": "/ˈnaːmə/"
+            }
+        ]
+    }
+]

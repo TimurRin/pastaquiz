@@ -12,6 +12,7 @@ let correctAnswer;
 let reversed = false;
 let results = false;
 
+export const dataVersion = 2;
 export const page = writable("dashboard");
 export const dashboard = writable({});
 export const preview = writable({});

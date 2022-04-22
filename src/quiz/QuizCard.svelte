@@ -10,7 +10,7 @@
         <p><i>{quiz.description}</i></p>
     {/if}
     <p>
-        by <b>{quiz.author || "anonymous"}</b> &mdash; {quiz.date != null
+        by <a href={quiz.authorLink || ("https://www.google.com/search?q=" + (quiz.author || "anonymous"))}><b>{quiz.author || "anonymous"}</b></a> &mdash; {quiz.date != null
             ? new Date(quiz.date).toLocaleString()
             : "Unknown date"} &mdash; {quiz.uid}
     </p>
