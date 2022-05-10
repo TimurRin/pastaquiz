@@ -6,7 +6,7 @@
         updateDashboard,
         updatePreview,
         updateEdit,
-        updateProcess,
+        showProcess,
         dashboard,
     } from "./quiz";
 
@@ -79,7 +79,7 @@
             <div class="quiz-current">
                 <h1>Active quiz</h1>
                 <QuizCard quiz={$dashboard.quiz} />
-                <button style="width:100%" on:click={() => updateProcess()}
+                <button style="width:100%" on:click={() => showProcess()}
                     >Continue</button
                 >
             </div>

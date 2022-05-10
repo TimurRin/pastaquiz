@@ -13,7 +13,7 @@
     <h3>{$process.question.text}</h3>
 </div>
 <form class="quiz">
-    {#each $process.question.options as value, index}
+    {#each $process.question.options.options as value, index}
         <div class="option-wrapper">
             <input
                 id={"option-" + $process.question.number + "-" + index}
